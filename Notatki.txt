@@ -1,0 +1,28 @@
+REACT NATIVE
+
+Co to jest React Native?
+	"Learn once, write everywhere"
+	You can build real mobile apps by using JavaScript and React (Native)
+	React Native is an addition to React
+
+	What a React Natice App is NOT?
+		- Web App running on Mobile Device
+		- Web App hosted by WebView in NAtive App (np. Ionic)
+
+	What a REact Native app is?
+		- JS + REact NAtive App, compiled to Native Code
+
+Bliższe spojrzenie
+	Poniżej jak jest kompilowane UI w Web, w danych systemach operacyjnych i w React Native:
+		React for the Web - <div>, <input>
+		Native Component (Android) - android.view, EditText
+		Native component (iOS) UIView, UITextField
+		React Native <View>, <TextInput> - to nam sie dostosuję w zależności od tego na jakim systemie jesteśmy
+
+Tworzenie peirwszej apliakcji Native React
+	Instlaujemy globalnie
+		sudo npm install -g create-react-native-app
+	W ścieżke projektu
+		create-react-native-app nazwa projektu
+	By rozpocząć
+		npm start
