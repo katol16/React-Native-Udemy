@@ -90,4 +90,10 @@ Stylowanie w React-Native
 
 	If you want to learn more about Flexbox, don't miss this awesome article: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 
-	w React Native onPress działa jak onClick
+	w React Native onPress działa jak onClick, 
+	onChangeText w React Native zamiast onChange
+
+do błędu: Execution failed for task ':app:installDebug'. > com.android.builder.testing.api.DeviceException: com.android.ddmlib.InstallException: write failed: No space left on device
+	https://github.com/facebook/react-native/issues/2711
+	dalej tu: (Ustawienia w android studio)
+	https://stackoverflow.com/questions/38182131/snapshot-and-use-host-gpu-options-missing-from-avd-settings
