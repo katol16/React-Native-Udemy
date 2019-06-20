@@ -97,3 +97,46 @@ do błędu: Execution failed for task ':app:installDebug'. > com.android.builder
 	https://github.com/facebook/react-native/issues/2711
 	dalej tu: (Ustawienia w android studio)
 	https://stackoverflow.com/questions/38182131/snapshot-and-use-host-gpu-options-missing-from-avd-settings
+Jak nie pomoże ro zrób to:
+		cd /home/karol/.android/avd/Nexus_5X_API_29_x86.avd/
+	następnie:
+		sudo rm -rf *.lock
+
+
+REDUX OVERVIEW
+	Central Store -> Stores entire application state
+
+Różnice pomiędzy nawigacją w React-web app i react-native app
+
+    MASZ TO NA OBRAZKU POKAZANE:
+
+    WEB -> URL -> React Router -> <Component/>
+
+    Native App -> Mamy "Tabs" i "Stack" -> Coponent
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
