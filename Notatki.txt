@@ -115,6 +115,13 @@ Różnice pomiędzy nawigacją w React-web app i react-native app
     Native App -> Mamy "Tabs" i "Stack" -> Coponent
 
 
+NAPRAWIANIE BŁĘDÓW:
+	unable to load script make sure you are either running a metro server
+	lub
+	Unable to load script from assets ‘index.android.bundle’
+	Rozwiązanie: https://medium.com/@adityasingh_32512/solved-unable-to-load-script-from-assets-index-android-bundle-bdc5e3a3d5ff
+
+
 
 
 
